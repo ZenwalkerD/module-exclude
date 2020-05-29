@@ -1,4 +1,4 @@
-import { environmentBase } from './environment-base';
+import { environmentBase } from 'src/environments/Tensgear/environment-base';
 
 export const environment = {
   production: true,

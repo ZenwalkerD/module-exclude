@@ -2,12 +2,13 @@
 // `ng build --prod` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
 
-import { sensformerBase } from './sensforrmer-base';
+import { environmentBase } from 'src/environments/Tensgear/environment-base';
 
 export const environment = {
   production: false,
-  routes: sensformerBase.routes,
-  modules: sensformerBase.modules
+  routes: environmentBase.routes,
+  modules: environmentBase.modules,
+  buildText: 'dev build tensformer'
 };
 
 /*

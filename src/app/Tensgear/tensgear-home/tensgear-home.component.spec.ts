@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { DevHomeComponent } from './dev-home.component';
+import { TensgearHomeComponent } from './tensgear-home.component';
 
-describe('DevHomeComponent', () => {
-  let component: DevHomeComponent;
-  let fixture: ComponentFixture<DevHomeComponent>;
+describe('TensgearHomeComponent', () => {
+  let component: TensgearHomeComponent;
+  let fixture: ComponentFixture<TensgearHomeComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ DevHomeComponent ]
+      declarations: [ TensgearHomeComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(DevHomeComponent);
+    fixture = TestBed.createComponent(TensgearHomeComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

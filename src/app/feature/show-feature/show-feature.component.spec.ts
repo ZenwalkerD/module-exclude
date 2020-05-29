@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SensHomeComponent } from './sens-home.component';
+import { ShowFeatureComponent } from './show-feature.component';
 
-describe('SensHomeComponent', () => {
-  let component: SensHomeComponent;
-  let fixture: ComponentFixture<SensHomeComponent>;
+describe('ShowFeatureComponent', () => {
+  let component: ShowFeatureComponent;
+  let fixture: ComponentFixture<ShowFeatureComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ SensHomeComponent ]
+      declarations: [ ShowFeatureComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(SensHomeComponent);
+    fixture = TestBed.createComponent(ShowFeatureComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
