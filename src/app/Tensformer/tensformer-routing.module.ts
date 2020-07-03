@@ -1,17 +1,22 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { TensHomeComponent } from './tensformer-home/tens-home.component';
+import { environment } from 'src/environments/environment';
 
 
 const routes: Routes = [
   {
     path: '', component: TensHomeComponent,
-    children: [{ path: 'feature', loadChildren: '../feature/feature.module#FeatureModule' }]
-  }
+  },
+  ...environment.modules
 ];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]
 })
-export class TensformerRoutingModule { }
+export class TensformerRoutingModule {
+  constructor() {
+    console.log(routes);
+  }
+}

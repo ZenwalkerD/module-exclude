@@ -14,7 +14,7 @@ export class TensHomeComponent implements OnInit {
   }
 
   click() {
-    this.router.navigate(['./feature'], { relativeTo: this.activatedRoute });
+    this.router.navigate(['feature'], { relativeTo: this.activatedRoute });
   }
 
 }

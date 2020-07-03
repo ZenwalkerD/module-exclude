@@ -13,8 +13,7 @@ import { environment } from 'src/environments/environment';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-    environment.modules
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent],

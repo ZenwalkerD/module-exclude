@@ -5,7 +5,7 @@ import { TensgearHomeComponent } from './tensgear-home/tensgear-home.component';
 
 const routes: Routes = [
   {
-    path: '', component: TensgearHomeComponent//loadChildren: '../status-header/status-header.module#StatusHeaderModule'
+    path: '', component: TensgearHomeComponent
   }
 ];
 

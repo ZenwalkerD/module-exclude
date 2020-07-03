@@ -5,5 +5,7 @@ export const tensformerBase = {
     { path: '', component: LoginComponent },
     { path: 'home', loadChildren: './Tensformer/tensformer.module#TensformerModule' }
   ],
-  modules: []
+  modules: [
+    { path: 'feature', loadChildren: '../feature/feature.module#FeatureModule' }
+  ]
 };
